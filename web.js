@@ -99,6 +99,7 @@ bot.on('speak', function(data) {
 		process.exit(1);
 	}
 	
+	/*
 	if( text.contains('/tweet') ) {
 		console.log('Making request.');
 		request({
@@ -124,6 +125,7 @@ bot.on('speak', function(data) {
 			}
 		});
 	}
+	*/
 	
 	if( text.contains('/bootbogert') ) {
 		bot.speak('Now I am become death, destroyer of worlds!');
